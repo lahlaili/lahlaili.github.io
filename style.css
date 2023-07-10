@@ -1,0 +1,21 @@
+:root{
+    --main-color: #98c1d9;
+    --accent-color:#dbe9f6 ;
+    --background-color:#f0f5fa ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background-color);
+}
+h1 {
+    color: var(--main-color);
+  }
+  
+  .button {
+    background-color: var(--accent-color);
+    color: white;
+  }
