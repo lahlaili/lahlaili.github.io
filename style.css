@@ -13,7 +13,14 @@
     box-sizing: border-box;
     font-family: 'Mochiy Pop One', sans-serif;
 }
+body{
+    background-image: url("/images/fabrizio-conti-c3wsMnxQZDw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: auto;
 
+   
+}
 .navbar{
     background-color: var(--second-color);
     display: flex;
@@ -126,5 +133,9 @@
     }
     .nav-icon{
         display: block;
+    }
+    body{
+        background-position:top ;
+        background-size: auto;
     }
 }
