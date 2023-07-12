@@ -26,6 +26,7 @@ body{
     display: flex;
     justify-content: space-between;
     min-height: 60px;
+    z-index: 9999;
 }
 .navbar-brand{
     display: flex;
@@ -85,7 +86,26 @@ body{
     height: 600px;
     background-color:var(--main-color);
     display: none;
+    animation: dropAnimation 0.5s;
 }
+
+@keyframes dropAnimation {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
 .nav-page-link{
     list-style: none;
     text-decoration: none;
